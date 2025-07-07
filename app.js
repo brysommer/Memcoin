@@ -30,4 +30,4 @@ bot.on('message', async (msg) => {
 
 });
 
-setInterval(sendAItoUsers, dataBot.timeOut * 1 * 10 * 1000);
+setInterval(sendAItoUsers, dataBot.timeOut * 60 * 60 * 1000);
